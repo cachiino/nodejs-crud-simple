@@ -7,7 +7,7 @@ const submitBtn = document.getElementById('submitBtn');
 const cancelBtn = document.getElementById('cancelBtn');
 const userTableBody = document.querySelector('#userTable tbody');
 
-const API_URL = 'http://durro.us-east-1.elasticbeanstalk.com/';
+const API_URL = 'http://deploynodejs.us-east-1.elasticbeanstalk.com/users';
 
 // Fungsi untuk memuat semua user
 async function loadUsers() {
